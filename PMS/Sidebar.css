@@ -1,0 +1,54 @@
+div.sidebar {
+	height: 90vh;
+	width: 0px;
+	background-color: #6C4E31;
+	z-index: 3;
+	position: fixed;
+	overflow-x: hidden;
+	transition: 0.3s;
+	border-right: 2px solid #EEEEEE;
+}
+div.sidebar h1 {
+	font-size: 25px;
+	text-align: center;
+	padding-top: 20px;
+	color: #EEEEEE;
+}
+div.sidebar div.list {
+	padding-left: 30px;
+}
+div.sidebar div.list a {
+	cursor: pointer;
+	transition: 0.3s;
+	text-decoration: none;
+	line-height: 35px;
+	color: #EEEEEE;
+}
+div.sidebar div.list a:hover {
+	color: #FAEED1;
+	transition: 0.3s;
+}
+div.content {
+	padding: 50px;
+	text-align: center;
+}
+@keyframes float {
+	0% {
+		margin-top: 70px;
+	}
+	100% {
+		margin-top: 50px;
+	}
+}
+div.content div.animation {
+	animation: 1.5s infinite alternate float;
+}
+div.content div.animation img.logo-content {
+	width: 400px;
+	height: 400px;
+	
+}
+div.content div.animation h1 {
+	font-size: 30px;
+	color: black;
+}

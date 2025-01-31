@@ -1,0 +1,115 @@
+div.header {
+     width: 100%;
+     margin: 0px 0px;
+     background: #6C4E31;
+     position: fixed;
+     top: 0;
+     z-index: 2;
+}
+div.header table {
+     margin: 0px 10% 0px auto;
+     border: 0px solid white;
+     border-spacing: 0px;
+}
+div.header table tr td a {
+     font-size: 17px;
+     text-decoration: none;
+}
+div.header table tr td a p {
+     padding: 15px;
+     margin: 0px;
+     background: rgba(0, 0, 0, 0.0);
+     color: #EEEEEE;
+     transition: 0.3s;
+}
+div.header table tr td a p:hover {
+     padding: 15px 25px;
+     margin: 0px;
+     background: #481E14;
+     color: #EEEEEE;
+     transition: 0.3s;
+}
+div.header table tr td button.Drop-Button {
+     border: none;
+     font-size: 17px;
+     cursor: pointer;
+     padding: 15px;
+     margin: 0px;
+     background: rgba(0, 0, 0, 0.0);
+     color: #EEEEEE;
+     transition: 0.3s;
+}
+div.header table tr td button.Drop-Button:hover {
+     font-size: 17px;
+     padding: 15px 25px;
+     margin: 0px;
+     background: #481E14;
+     color: #EEEEEE;
+     transition: 0.3s;
+}
+div.header table tr td div.Records-Dropdown {
+     position: relative;
+     display: inline-block;
+}
+div.header table tr td div.Records-Dropdown div.Records {
+     display: none;
+     position: absolute;
+     min-width: 150px;
+     overflow: auto;
+     z-index: 1;
+     background-color: #6C4E31;
+     border-top: 1px solid #EEEEEE;
+}
+div.header table tr td div.Records-Dropdown div.Records a {
+     display: block;
+     color: #EEEEEE;
+     padding: 8px 10px;
+}
+div.header table tr td div.Records-Dropdown div.Records a:hover {
+     display: block;
+     color: #EEEEEE;
+     padding: 8px 10px;
+     background: #481E14;
+     transition: 0.3s;
+}
+div.header table tr td div.Records-Dropdown:hover div.Records {
+     display: block !important;
+}
+div.header table tr td div.Records-Dropdown:hover button.Drop-Button {
+     background-color: #481E14 !important;
+     padding: 15px 25px;
+}
+div.footer {
+     background-color: #6C4E31;
+     margin-top: 50px;
+     width: 100%;
+     height: 100px;
+     text-align: center;
+     position: absolute;
+     bottom: 0;
+     z-index: 2;
+}
+div.footer table {
+     width: 80%;
+     height: 100%;
+     margin: 0px auto;
+}
+div.footer table tr td h1.name {
+     margin: 15px 0px 0px 0px;
+     font-size: 40px;
+     text-align: left;
+     text-decoration: underline;
+     color: #FAEED1;
+}
+div.footer table tr td p.slogan {
+     font-size: 15px;
+     font-style: italic;
+     text-align: left;
+     margin-top: 0px;
+     color: #FAEED1;
+}
+div.footer table tr td p.copyright {
+     font-size: 17px;
+     text-align: right;
+     color: #FAEED1;
+}
